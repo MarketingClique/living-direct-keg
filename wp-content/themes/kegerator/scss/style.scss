@@ -395,8 +395,8 @@ p {font-size: 14px;}
 #mobile-nav {
 	@extend .show-for-small;
 	@include grid-row($behavior:collapse);
-	border: 1px solid #3195af; 
-	background-color: #297d95; 
+	border: 1px solid $mobilenavcolor; 
+	background-color: $mobilenavbg; 
 	.mobile-drop {
 		@include grid-column(2);
 		color: #b8d1d7;
@@ -429,7 +429,7 @@ p {font-size: 14px;}
 	  	font-size: 16px;
 	}
 	#mobile-search-button {
-		@include button($bg:#f7c341, $padding: $button-sml);
+		@include button($bg:#8DADDD, $padding: $button-sml);
 		color: black;
 		font-size: 20px;
 		border-top-right-radius: 5px;
@@ -459,7 +459,7 @@ p {font-size: 14px;}
 	margin-bottom: 1px;
 }
 .section-container.auto > section > .title:hover, .section-container.auto > .section > .title:hover, .section-container.vertical-tabs > section > .title:hover, .section-container.vertical-tabs > .section > .title:hover, .section-container.vertical-nav > section > .title:hover, .section-container.vertical-nav > .section > .title:hover, .section-container.horizontal-nav > section > .title:hover, .section-container.horizontal-nav > .section > .title:hover, .section-container.accordion > section > .title:hover, .section-container.accordion > .section > .title:hover, .section-container.accordion > .section > .title:focus {
-	background: #B7D1D7;
+	background: $mobilenavbg;
 }
 
 .section-container.auto > section > .content, .section-container.auto > .section > .content, .section-container.vertical-tabs > section > .content, .section-container.vertical-tabs > .section > .content, .section-container.vertical-nav > section > .content, .section-container.vertical-nav > .section > .content, .section-container.horizontal-nav > section > .content, .section-container.horizontal-nav > .section > .content, .section-container.accordion > section > .content, .section-container.accordion > .section > .content {
@@ -474,24 +474,24 @@ p {font-size: 14px;}
 }
 
 .section-container {
-	background: white;
+	background: $mobilenavcolor;
 	margin-bottom: 0;
 	.title {
 		padding: 0.9375em;
 		position: relative;
 		font-size: 18px;
-		color: #12365A;
-		border-bottom: 1px solid white;
-		-webkit-tap-highlight-color: #B7D1D7;
+		color: #fff;
+		border-bottom: 1px solid $mobilenavcolor;
+		-webkit-tap-highlight-color: $mobilenavbg;
 		&:hover, &:focus {
-			background: #B7D1D7;
+			background: $mobilenavbg;
 		}
 		&:after {
 			content: "";
 			position: absolute;
 			top: .8em;
-			right: .5em;
-			background: url(images/mobile-sprites.png) no-repeat 0px -450px;
+			right: .4em;
+			background: url(images/mobile-sprites.png) no-repeat 0px -516px;
 			width: 18px;
 			height: 18px;
 		}
@@ -504,14 +504,14 @@ p {font-size: 14px;}
 	}
 	section.active {
 		.title {
-			background: #B7D1D7;
-			-webkit-tap-highlight-color: #B7D1D7;
+			background: $mobilenavbg;
+			-webkit-tap-highlight-color: $mobilenavbg;
 			&:hover {
-				background: #B7D1D7;
+				background: $mobilenavbg;
 			}
 			&:after {
 				top: 1.2em;
-				background: url(images/mobile-sprites.png) no-repeat 0px -397px;
+				background: url(images/mobile-sprites.png) no-repeat 0px -463px;
 				width: 17px;
 				height: 2px;
 			}
@@ -519,6 +519,7 @@ p {font-size: 14px;}
 	}
 	.content {
 		padding: 0;
+		a {color: $mobilenavbg;}
 		p {
 			position: relative;
 			padding: 1em 2.5em 1em 1.5em;
@@ -526,15 +527,14 @@ p {font-size: 14px;}
 			font-size: 18px;
 			line-height: 21px!important;
 			margin-bottom: 1px!important;
+			border-top: 2px groove rgba(250, 250, 250, 0.4);
 			&:after {
 				content: "";
 				position: absolute;
 				top: 50%;
 				right: .4em;
-				margin-top: -13px;
-				background: url(images/mobile-sprites.png) no-repeat 0px -319px;
-				width: 18px;
-				height: 26px;
+				margin-top: -8px;
+				@include triangle(16px, $mobilenavbg, right);
 			}
 		}
 	}
@@ -760,7 +760,7 @@ p {font-size: 14px;}
 		}
 	}
 	.flag-icon {
-		background: url(images/mobile-sprites.png) no-repeat 0px -271px;
+		background: url(images/mobile-sprites.png) no-repeat 0px -289px;
 		width: 30px;
 		height: 19px;
 		display: inline-block;
@@ -851,17 +851,17 @@ p {font-size: 14px;}
 		height: 30px;
 	}
 	a.facebook {
-		background: url(images/mobile-sprites.png) no-repeat 0px -240px;
+		background: url(images/mobile-sprites.png) no-repeat 0px -258px;
 		width: 30px;
 		height: 30px;
 	}
 	a.twitter {
-		background: url(images/mobile-sprites.png) no-repeat 0px -484px;
+		background: url(images/mobile-sprites.png) no-repeat 0px -550px;
 		width: 30px;
 		height: 30px;
 	}
 	a.youtube {
-		background: url(images/mobile-sprites.png) no-repeat 0px -515px;
+		background: url(images/mobile-sprites.png) no-repeat 0px -581px;
 		width: 31px;
 		height: 31px;
 	}

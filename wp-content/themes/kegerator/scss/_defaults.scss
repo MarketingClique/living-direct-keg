@@ -11,6 +11,8 @@ $primary-color: #833f1c;
 $white: #f9f9f9;
 $gray:#999999;
 $black:#525252;
+$mobilenavbg: #833F1C;
+$mobilenavcolor: #CA6B29;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
@@ -466,9 +468,9 @@ $f-dropdown-list-padding: emCalc(10px) emCalc(15px);
 // $section-function-factor: 10%;
 
 // These style the titles
-$section-title-color: #12365A;
-$section-title-bg: #B7D1D7;
-$section-title-bg-active: #B7D1D7;
+$section-title-color: #fff;
+$section-title-bg: $mobilenavbg;
+$section-title-bg-active: $mobilenavbg;
 // $section-title-bg-active-tabs: #fff;
 
 // Want to control border size, here ya go!
