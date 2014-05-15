@@ -552,7 +552,7 @@ p {font-size: 14px;}
 			border: none;
 			span {font-weight: bold;}
 		}
-		.dropdown.button.small:before {border-color: #267d92 transparent transparent transparent;}
+		.dropdown.button.small:before {border-color: $primary-color transparent transparent transparent;}
 	}	
 	.search-wrap {
 		@include grid-row;
