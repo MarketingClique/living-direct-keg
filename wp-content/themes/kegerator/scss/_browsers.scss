@@ -111,14 +111,13 @@ body.windows {
 }
 body.gecko.windows {
 	.headerContact {width: 242px; }
+	#headerBanner {margin-top: -2.5px}
 	.menu-primary {
-
+		a {padding-bottom: 7px;}
 	}	
 }
 body.chrome.windows {
-	.menu-primary { 
-
-	}
+	#headerBanner {margin-top: -2.5px}
 }
 body.ie.windows {
 	.menu-primary {

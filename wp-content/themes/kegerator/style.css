@@ -5202,6 +5202,13 @@ body.windows #header #headerTop {
 
 body.gecko.windows .headerContact {
   width: 242px; }
+body.gecko.windows #headerBanner {
+  margin-top: -2.5px; }
+body.gecko.windows .menu-primary a {
+  padding-bottom: 7px; }
+
+body.chrome.windows #headerBanner {
+  margin-top: -2.5px; }
 
 body.ie.windows .menu-primary ul.submenu {
   position: absolute;
