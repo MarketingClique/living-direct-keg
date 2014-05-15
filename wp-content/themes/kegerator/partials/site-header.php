@@ -17,7 +17,7 @@
 				</a> - Available 24 x 7
 			</div><!-- contactHeader -->
 			<span class="phoneFlag">&nbsp;</span>
-			<span class="phoneNumber">1-800-297-6076</span> or
+			<span class="phoneNumber">1-866-950-8710</span> or
 			<div id="lpButtonDiv1" style="display: inline; visibility: visible;">
 				<a href="http://www.kegerator.com/BRAND_CS.html">Email</a>
 			</div>
