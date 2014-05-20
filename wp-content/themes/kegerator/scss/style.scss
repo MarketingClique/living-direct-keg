@@ -342,7 +342,7 @@ p {font-size: 14px;}
 		box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
 		li {
 			background: #F5F1e8;
-			padding: 4px 12px!important;
+			padding: 4px 12px;
 			border:none;
 			&:hover {
 				background: #f2b58b;
@@ -354,6 +354,11 @@ p {font-size: 14px;}
 			border-right: none;
 			text-align: left;
 		}
+	}
+	& > li:last-child ul {
+		left: auto;
+		right: 0;
+		a {padding: 4px 0px 4px 12px;}
 	}
 }
 

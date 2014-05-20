@@ -10,9 +10,9 @@
 <a href="http://blog.kegerator.com/" target="_blank" title="read our Blog" class="social-link blog">read our blog</a>
 
 </span>
-<span class="social-link"><a href="http://www.facebook.com/kegerator" target="_blank" title="follow us on Facebook" class="social-link facebook">follow us on Facebook</a></span>
-<span class="social-link"><a href="http://www.twitter.com/CA_appliance" target="_blank" title="follow us on Twitter" class="social-link twitter">follow us on Twitter</a></span>
-<span class="social-link"><a href="http://www.youtube.com/CAkegerator" target="_blank" title="watch us on YouTube" class="social-link youtube">watch us on YouTube</a></span>
+<span class="social-link"><a href="http://www.facebook.com/KegeratorStore" target="_blank" title="follow us on Facebook" class="social-link facebook">follow us on Facebook</a></span>
+<span class="social-link"><a href="http://www.twitter.com/KegeratorDotCom" target="_blank" title="follow us on Twitter" class="social-link twitter">follow us on Twitter</a></span>
+<span class="social-link"><a href="http://www.youtube.com/KegeratorStore" target="_blank" title="watch us on YouTube" class="social-link youtube">watch us on YouTube</a></span>
 </div>
 <div id="footer-mid">
 <div id="footer-menu-container">
@@ -35,7 +35,7 @@
 	<h4>Customer Service</h4>
 	<ul>
                 <li><b>
-<!-- spid include: Store_Display_Phone -->1-800-297-6076</b></li>
+<!-- spid include: Store_Display_Phone -->1-866-950-8710</b></li>
 		<li><a href="http://www.kegerator.com/BRAND_CS.html">Contact Us</a></li>
                 <li><a href="http://www.kegerator.com/BRAND_CS_SHIPPING.html">Shipping Options</a></li>
                 <li><a href="http://www.kegerator.com/BRAND_CS_RETURNS.html">Return &amp; Refund Policy</a></li>

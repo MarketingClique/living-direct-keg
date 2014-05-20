@@ -4201,7 +4201,7 @@ p {
     box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75); }
     .menu-primary ul li {
       background: #F5F1e8;
-      padding: 4px 12px !important;
+      padding: 4px 12px;
       border: none; }
       .menu-primary ul li:hover {
         background: #f2b58b;
@@ -4210,6 +4210,11 @@ p {
       color: #833f1c;
       border-right: none;
       text-align: left; }
+  .menu-primary > li:last-child ul {
+    left: auto;
+    right: 0; }
+    .menu-primary > li:last-child ul a {
+      padding: 4px 0px 4px 12px; }
 
 #mobile-header {
   width: 100%;
