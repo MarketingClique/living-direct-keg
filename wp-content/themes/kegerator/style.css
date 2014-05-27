@@ -5191,11 +5191,6 @@ body {
 html.no-flexboxlegacy .headerSearchBox {
   width: 339px !important; }
 
-html.no-cssreflections #headerBanner {
-  margin-top: -2px; }
-html.no-cssreflections .menu-primary a {
-  padding-bottom: 5px; }
-
 body.windows #header #headerTop {
   overflow: hidden; }
   body.windows #header #headerTop #networkHeader {
@@ -5215,6 +5210,25 @@ body.gecko.windows .menu-primary a {
 body.chrome.windows #headerBanner {
   margin-top: -2.5px; }
 
+body.ie.windows #header #headerTop #networkHeader {
+  margin-top: 0; }
+body.ie.windows #headerBanner {
+  margin-top: -3px; }
+body.ie.windows .menu-primary a {
+  padding-bottom: 5px; }
+body.ie.windows .menu-primary > li:nth-child(2) a {
+  padding-left: 20.5px;
+  padding-right: 20px; }
+body.ie.windows .menu-primary > li:nth-child(3) a {
+  padding-left: 21.5px; }
+body.ie.windows .menu-primary > li:nth-child(4) a {
+  padding-right: 20px; }
+body.ie.windows .menu-primary > li:nth-child(5) a {
+  padding-left: 21.25px; }
+body.ie.windows .menu-primary > li:nth-last-child(2) a {
+  padding-left: 20.75px; }
+body.ie.windows .menu-primary > li:last-child a {
+  padding-left: 21.5px; }
 body.ie.windows .menu-primary ul.submenu {
   position: absolute;
   display: none;
