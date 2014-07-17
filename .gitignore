@@ -52,3 +52,5 @@ wp-content/*
 .codekit-cache
 
 *.map
+
+wp-content/themes/.DS_Store
