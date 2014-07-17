@@ -3719,7 +3719,7 @@ img.rsImg {
 /* Header Search Area */
 .headerContact {
   font-weight: bold;
-  color: #104F5E;
+  color: #833E1C;
   font-size: 17px;
   margin: 0 0 3px 0;
   line-height: 20px;
@@ -3728,7 +3728,7 @@ img.rsImg {
   float: right; }
 
 .headerContact a {
-  color: #257D92; }
+  color: #5881C2; }
 
 .headerContact .contactHeader {
   font-size: 12px;
@@ -5702,8 +5702,8 @@ body.windows #header #headerTop {
 body.gecko.windows .headerContact {
   width: 242px; }
 
-body.ie.windows .menu-primary > li:last-child a {
-  color: #dd0000 !important; }
+/*body.ie.windows .menu-primary > li:last-child a {
+  color: #dd0000 !important; }*/
 body.ie.windows .menu-primary ul {
   position: absolute;
   display: none;
