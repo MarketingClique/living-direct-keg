@@ -43,6 +43,9 @@ p {font-size: 14px;}
 		}
 	}
 }
+
+iframe {max-width: 100%;}
+
 .arrow {
 	font-weight: bold;
 	margin-bottom: 0;
@@ -660,6 +663,8 @@ p {font-size: 14px;}
 	position: absolute;
 	display: none;
 	z-index: 99999999;
+	width: 100%;
+	max-width: 960px;
 	h4 {
 		color: $black;
 	}

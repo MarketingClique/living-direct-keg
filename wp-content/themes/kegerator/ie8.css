@@ -1,4 +1,11 @@
 @charset "UTF-8";
+/*!
+Theme Name:		Compact Appliance
+Version:			1.0
+Author:			Marketing Clique
+Author URI: http://marketingclique.com
+Template: genesis
+*/
 meta.foundation-mq-small {
   font-family: "only screen and (min-width: 768px)";
   width: 768px; }
@@ -4986,7 +4993,7 @@ p {
   border-top: solid thin #dadada;
   border-bottom: 5px solid #267d92;
   padding: 1em;
-  margin: -16px 15px -16px 0px;
+  margin: -16px 15px -16px 0;
   position: absolute;
   display: none;
   z-index: 99999999; 
@@ -4996,6 +5003,11 @@ p {
   #mega-menu h4 {
     color: #525252; }
 
+#mega-menu li {
+	display: block;
+	width: 32%;
+	float: left;
+}
 .no-js #mega-menu {
   display: block; }
 
