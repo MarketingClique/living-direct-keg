@@ -52,3 +52,9 @@ wp-content/*
 .codekit-cache
 
 *.map
+
+wp-content/themes/.DS_Store
+
+wp-content/themes/kegerator/.DS_Store
+
+wp-content/themes/kegerator/scss/.DS_Store
