@@ -47,9 +47,6 @@ img, object, embed {
 object, embed {
   height: 100%; }
 
-iframe {
-	max-width: 100%;
-}
 img {
   -ms-interpolation-mode: bicubic; }
 
@@ -3850,6 +3847,9 @@ p {
         border-left: 20px solid transparent;
         content: ""; } }
 
+iframe {
+  max-width: 100%; }
+
 .arrow {
   font-weight: bold;
   margin-bottom: 0; }
@@ -4557,9 +4557,9 @@ p {
   margin: -16px 15px -16px 0px;
   position: absolute;
   display: none;
-  z-index: 99999999; }
+  z-index: 99999999;
   width: 100%;
-  max-width: 960px;
+  max-width: 960px; }
   #mega-menu h4 {
     color: #525252; }
 
