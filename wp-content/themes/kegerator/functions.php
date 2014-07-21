@@ -101,13 +101,14 @@ function ca_remove_menu() {
 add_action( 'genesis_before', 'ca_remove_header' );	
 add_action( 'genesis_after_header', 'genesis_do_nav' );
 
-//header banner
+/* 
 function ca_header_banner(){
 	$html = file_get_html('http://www.kegerator.com/');
 	foreach($html->find('#headerBanner') as $element) 
        echo $element;
 }
 add_action( 'genesis_after_header', 'ca_header_banner' );
+*/
 
 //modal box
 function ca_modal_box() {
@@ -349,7 +350,7 @@ function ca_add_footer(){
 	echo '<section id="footer-mailing">';
 		echo '<div class="mailer-box">';
 		_e('<p class="small-12 large-7 columns"><span>Want More?</span> Get the latest deals, news and subscribe today.</p>');
-		echo '<form method="post" action="http://www.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Newsletter-SubscribedFooter">';
+		echo '<form method="post" action="http://www.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Newsletter-SubscribedFooter">';
 			echo '<div class="small-12 large-5 columns">';
 				echo '<div class="row collapse">';
 					echo '<div class="large-7 columns">';
