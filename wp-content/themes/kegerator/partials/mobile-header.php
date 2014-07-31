@@ -5,9 +5,9 @@
 		</a>
 	</section>
 	<section class="mobile-shop-link">
-		<a href="http://kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Cart-Show">shop</a>
+		<a href="http://kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Cart-Show">shop</a>
 	</section>
-	<section class="mobile-cart"><a href="http://kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Cart-Show"><i class="icon-cart"></i></a></section>
+	<section class="mobile-cart"><a href="http://kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Cart-Show"><i class="icon-cart"></i></a></section>
 </header>
 <section id="mobile-nav">
 	<a href="#" class="mobile-drop">

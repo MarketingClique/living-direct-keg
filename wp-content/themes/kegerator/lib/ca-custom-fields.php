@@ -38,6 +38,133 @@ if(function_exists("register_field_group")){
 	));
 	
 	register_field_group(array (
+		'id' => 'acf_mega-nav-columns',
+		'title' => 'Mega Nav Columns',
+		'fields' => array (
+			array (
+				'key' => 'field_53a46783a4cb2',
+				'label' => 'Column',
+				'name' => 'ca_column',
+				'type' => 'repeater',
+				'sub_fields' => array (
+					array (
+						'key' => 'field_53a467a2a4cb3',
+						'label' => 'Column Heading',
+						'name' => 'column_heading',
+						'type' => 'text',
+						'column_width' => '',
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'none',
+						'maxlength' => '',
+					),
+					array (
+						'key' => 'field_53a467c1a4cb4',
+						'label' => 'Column subhead',
+						'name' => 'column_subhead',
+						'type' => 'text',
+						'column_width' => '',
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'none',
+						'maxlength' => '',
+					),
+					array (
+						'key' => 'field_53a467d4a4cb5',
+						'label' => '"See all" label',
+						'name' => 'see_all_label',
+						'type' => 'text',
+						'column_width' => '',
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'none',
+						'maxlength' => '',
+					),
+					array (
+						'key' => 'field_53a467e8a4cb6',
+						'label' => '"See all" link',
+						'name' => 'see_all_link',
+						'type' => 'text',
+						'column_width' => '',
+						'default_value' => '',
+						'placeholder' => '',
+						'prepend' => '',
+						'append' => '',
+						'formatting' => 'none',
+						'maxlength' => '',
+					),
+					array (
+						'key' => 'field_53a4680ea4cb7',
+						'label' => 'Column Link',
+						'name' => 'column_link',
+						'type' => 'repeater',
+						'column_width' => '',
+						'sub_fields' => array (
+							array (
+								'key' => 'field_53a46849a4cb8',
+								'label' => 'Link Text',
+								'name' => 'link_text',
+								'type' => 'text',
+								'column_width' => '',
+								'default_value' => '',
+								'placeholder' => '',
+								'prepend' => '',
+								'append' => '',
+								'formatting' => 'none',
+								'maxlength' => '',
+							),
+							array (
+								'key' => 'field_53a46855a4cb9',
+								'label' => 'Link URL',
+								'name' => 'link_url',
+								'type' => 'text',
+								'column_width' => '',
+								'default_value' => '',
+								'placeholder' => '',
+								'prepend' => '',
+								'append' => '',
+								'formatting' => 'none',
+								'maxlength' => '',
+							),
+						),
+						'row_min' => 0,
+						'row_limit' => '',
+						'layout' => 'row',
+						'button_label' => 'Add Link',
+					),
+				),
+				'row_min' => 0,
+				'row_limit' => 3,
+				'layout' => 'row',
+				'button_label' => 'Add Column',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'options_page',
+					'operator' => '==',
+					'value' => 'acf-options',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'default',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 30,
+	));
+	register_field_group(array (		
 		'id' => 'acf_branding',
 		'title' => 'Branding',
 		'fields' => array (
@@ -153,7 +280,7 @@ if(function_exists("register_field_group")){
 		'menu_order' => 1,
 	));
 	
-	register_field_group(array (
+/*	register_field_group(array (
 		'id' => 'acf_mega-section',
 		'title' => 'Mega Dropdown',
 		'fields' => array (
@@ -332,6 +459,7 @@ if(function_exists("register_field_group")){
 		),
 		'menu_order' => 2,
 	));
+*/	
 	
 	register_field_group(array (
 		'id' => 'acf_social-widgets',
