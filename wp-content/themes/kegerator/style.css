@@ -4557,9 +4557,10 @@ p {
   margin: -16px 15px -16px 0px;
   position: absolute;
   display: none;
-  z-index: 99999999; }
+  z-index: 99999999;
   width: 100%;
-  max-width: 960px;
+  max-width: 960px; }
+
   #mega-menu h4 {
     color: #525252; }
 
