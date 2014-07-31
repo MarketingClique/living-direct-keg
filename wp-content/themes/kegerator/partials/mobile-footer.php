@@ -12,17 +12,17 @@
 				<p>Sign up to receive special offers and promotions from the LivingDirect network of sites.</p>
 			</div>
 			<span class="emailExclusives">&nbsp;</span>
-			<form action="http://m.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Newsletter-SubscribedFooter" method="post" class="footer-search-form">
+			<form action="http://m.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Newsletter-SubscribedFooter" method="post" class="footer-search-form">
 <input id="footerEmail" type="text" name="Email" class="mw-textinput footer-search-field" placeholder="Enter your email address" style="color: rgb(178, 173, 173);"><input type="submit" class="footerSubmit" value="Submit">
 </form>
 		</div><!-- form container -->
 	</div><!-- footer mid -->
 	<div class="section-container accordion" data-section="accordion">
 		<section>
-			<p class="title alt" data-section-title><a href="https://m.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Login-Show">Sign In</a></p>
+			<p class="title alt" data-section-title><a href="https://m.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Login-Show">Sign In</a></p>
 		</section>
 		<section>
-			<p class="title alt" data-section-title><a href="https://m.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Login-OrderStatus">Order Status</a></p>
+			<p class="title alt" data-section-title><a href="https://m.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Login-OrderStatus">Order Status</a></p>
 		</section>
 		<section>
 			<p class="title" data-section-title>Living Direct Network</p>
@@ -49,9 +49,9 @@
 		<section>
 			<p class="title" data-section-title>My Account</p>
 			<div class="content" data-section-content>
-				<a href="http://m.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Customer-Account"><p>My Account</p></a>
-				<a href="http://m.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Order-Track"><p>Order Status</p></a>
-				<a href="http://m.kegerator.com/on/demandware.store/Sites-Appliance-Site/default/Wishlist-Show"><p>Wish List</p></a>
+				<a href="http://m.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Customer-Account"><p>My Account</p></a>
+				<a href="http://m.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Order-Track"><p>Order Status</p></a>
+				<a href="http://m.kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Wishlist-Show"><p>Wish List</p></a>
 				<a href="http://m.kegerator.com/BRAND_ACCOUNT_HELP.html"><p>Account Help</p></a>
 			</div>
 		</section>
@@ -74,7 +74,7 @@
 				<a href="http://www.facebook.com/kegerator" target="_blank" title="follow us on Facebook" class="social-link facebook">follow us on Facebook</a>
 			</span>
 			<span class="social-link">
-				<a href="http://www.twitter.com/CA_appliance" target="_blank" title="follow us on Twitter" class="social-link twitter">follow us on Twitter</a>
+				<a href="http://www.twitter.com/KegeratorDotCom" target="_blank" title="follow us on Twitter" class="social-link twitter">follow us on Twitter</a>
 			</span>
 			<span class="social-link">
 				<a href="http://www.youtube.com/CAkegerator" target="_blank" title="watch us on YouTube" class="social-link youtube">watch us on YouTube</a>
