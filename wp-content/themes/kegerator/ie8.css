@@ -4304,7 +4304,7 @@ p {
 .see-all {
   font-size: 12.8px;
   position: absolute !important;
-  bottom: 0.25em; }
+  bottom: 1.6em; }
   .see-all.arrow:after {
     top: .3em; }
 
@@ -4963,9 +4963,7 @@ p {
 
 /* Columns Area */
 .top-set h5 {
-  color: #525252; 
-  margin-bottom: 0.5em;
-}
+  color: #525252; }
 .top-set .sub-content {
   color: #999999;
   font-size: 13px;
@@ -5012,11 +5010,9 @@ p {
   #mega-menu h4 {
     color: #525252; }
 
-#mega-menu li,
-.megacol li,
-.large-block-grid-3 li li {
+#mega-menu li {
 	display: block;
-	width: 97%;
+	width: 32%;
 	float: left;
 }
 .no-js #mega-menu {
