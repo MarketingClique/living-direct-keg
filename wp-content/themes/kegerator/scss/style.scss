@@ -94,35 +94,38 @@ iframe {max-width: 100%;}
 #contact-callout {
 	@include grid-row($behavior: collapse);
 	@include shadow;
-	background: white;
+	background: #f9f9f9;
 	padding: 0;
 	margin: 1em 0;
 	.user {
 		@include grid-column(2, $collapse:true);
-		padding: .25em;
+		padding: .95em;
 		position: relative;
 		background: $primary-color;
-		color: lighten($primary-color, 10%);
+		background-image: url("images/LC/LC_expert-call.png");
+		color: lighten($primary-color, 50%);
 		font-size: 2.25em;
 		z-index: 1;
 		&:after {
 			content: "";
 			position: absolute;
-			@include triangle(1.65em, $primary-color, right);
+			/* @include triangle(1.65em, $primary-color, right); */
 			top: -.02em;
 			left: 97.5%;
 			z-index: 0;
 		}
 	}
 	.content {
-		@include grid-column(10); 
-		padding: .85em 0 0 2.95em;
+		@include grid-column(8); 
+		padding: .85em 0 0 1.95em;
 	}
 	p {
 		margin-bottom: 0;
+		font-size: 16px;
+		color: $gray;
 		&.phone span a {
-			font-weight: bold;
-			color: black;
+			font-size: 1.3em;
+			color: $primary-color;
 		}
 	}
 }
@@ -738,8 +741,18 @@ section.echo {
 			@include shadow();
 			padding: 12px .5em;
 		}
+	section{ line-height: 1.5em;}
 	}
 }
+#footer-posts #posts-wrap section.entry-content a{
+	line-height: 1.5em;
+	color: #525252;
+}
+
+#footer-posts #posts-wrap a.read-more{
+	color: $primary-color !important;
+}
+
 #footer-social {
 	@extend .hide-for-small;
 }

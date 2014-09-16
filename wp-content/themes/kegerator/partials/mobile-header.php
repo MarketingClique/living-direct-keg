@@ -5,7 +5,7 @@
 		</a>
 	</section>
 	<section class="mobile-shop-link">
-		<a href="http://kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Cart-Show">shop</a>
+		<a href="http://kegerator.com/">shop</a>
 	</section>
 	<section class="mobile-cart"><a href="http://kegerator.com/on/demandware.store/Sites-Kegerator-Site/default/Cart-Show"><i class="icon-cart"></i></a></section>
 </header>

@@ -3902,7 +3902,7 @@ iframe {
   background-color: #f9f9f9;
   box-shadow: 2px -1px 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(153, 153, 153, 0.25);
   padding: 0.5em;
-  background: white;
+  background: #f9f9f9;
   padding: 0;
   margin: 1em 0; }
   #contact-callout:before, #contact-callout:after {
@@ -3916,21 +3916,17 @@ iframe {
     padding-right: 0;
     width: 16.66667%;
     float: left;
-    padding: 0.25em;
+    padding: 0.95em;
     position: relative;
     background: #833f1c;
-    color: #ad5225;
+    background-image: url("images/LC/LC_expert-call.png");
+    color: #eec5b0;
     font-size: 2.25em;
     z-index: 1; }
     #contact-callout .user:after {
       content: "";
       position: absolute;
-      height: 0;
-      width: 0;
-      border-color: transparent;
-      border-style: solid;
-      border-width: 0.825em;
-      border-left-color: #833f1c;
+      /* @include triangle(1.65em, $primary-color, right); */
       top: -0.02em;
       left: 97.5%;
       z-index: 0; }
@@ -3938,14 +3934,16 @@ iframe {
     position: relative;
     padding-left: 0.9375em;
     padding-right: 0.9375em;
-    width: 83.33333%;
+    width: 66.66667%;
     float: left;
-    padding: 0.85em 0 0 2.95em; }
+    padding: 0.85em 0 0 1.95em; }
   #contact-callout p {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #999999; }
     #contact-callout p.phone span a {
-      font-weight: bold;
-      color: black; }
+      font-size: 1.3em;
+      color: #833f1c; }
 
 #social-wrap {
   width: 100%;
@@ -4528,23 +4526,6 @@ iframe {
       left: 1.75em; } }
 
 /* Columns Area */
-.top-set {
-  position: relative;
-  z-index: 1; }
-  .top-set h4 {
-    margin-bottom: 0.5em; }
-  .top-set h5 {
-    color: #525252; }
-  .top-set > li {
-    height: 100%;
-    min-height: 100%; }
-  .top-set ul {
-    margin-left: 0;
-    margin-bottom: 2em;
-    list-style-type: none; }
-  .top-set ul li {
-    margin-bottom: 0.5em; }
-
 .top-set h6 {
   color: #525252; }
 .top-set .sub-content {
@@ -4639,6 +4620,15 @@ section.echo {
       box-shadow: 2px -1px 5px rgba(0, 0, 0, 0.1), 0 0 5px rgba(153, 153, 153, 0.25);
       padding: 0.5em;
       padding: 12px 0.5em; }
+    #footer-posts #posts-wrap section {
+      line-height: 1.5em; }
+
+#footer-posts #posts-wrap section.entry-content a {
+  line-height: 1.5em;
+  color: #525252; }
+
+#footer-posts #posts-wrap a.read-more {
+  color: #833f1c !important; }
 
 #footer-social-widgets {
   padding: 0 1em !important;
