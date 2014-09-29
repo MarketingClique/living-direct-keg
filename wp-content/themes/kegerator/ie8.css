@@ -5371,6 +5371,7 @@ body.archive .entry .entry-title, body.search .entry .entry-title, body.blog .en
 body.archive .post_comment_flag, body.search .post_comment_flag, body.blog .post_comment_flag {
   position: absolute;
   right: 2.5em;
+  top: 1em;
   color: #999999; }
   body.archive .post_comment_flag:after, body.search .post_comment_flag:after, body.blog .post_comment_flag:after {
     content: "";
