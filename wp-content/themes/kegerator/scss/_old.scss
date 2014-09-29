@@ -121,8 +121,14 @@
 	font-size: 11px;
 
 }
-.headerSearchBox .headerInput:focus { background-color: #FFF; color: #000; }
-.headerSearchBox input[type="text"]:focus { background-color: #FFF;	}
+.headerSearchBox .headerInput:focus { 	background: url(images/search.png) no-repeat left top;
+	background-position: 4px 2px;
+	background-color: #fff;
+ color: #000; }
+.headerSearchBox input[type="text"]:focus { 	background: url(images/search.png) no-repeat left top;
+	background-position: 4px 2px;
+	background-color: #fff;
+	}
 .headerSearchBox #SimpleSearchForm { display:inline; float: right; margin-top: 4px; }
 
 #footer { clear: both; width: 990px; background: white; @extend .hide-for-small;}
