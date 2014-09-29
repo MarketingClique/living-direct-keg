@@ -16,11 +16,12 @@
 /*
 !.gitignore
 !wp-content/
-scss/.sass-cache/*
  
 # Ignore everything in the "wp-content" directory, except the mu-plugins, plugins and themes directories.
 # Add exception for install.php and sunrise.php
 wp-content/*
+wp-content/themes/kegerator/scss/.sass-cache/*
+
 !wp-content/plugins/
 !wp-content/themes/
 !wp-content/mu-plugins
