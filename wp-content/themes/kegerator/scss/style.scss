@@ -633,6 +633,27 @@ iframe {max-width: 100%;}
 
 /* Columns Area */
 .top-set {
+	position: relative;
+	z-index: 1;
+	
+	h4 {
+    	margin-bottom: 0.5em; 
+    }
+    h5 {
+    	color: #525252;
+    }
+    > li {
+	    height: 100%;
+	    min-height: 100%;
+    }
+    ul {
+	    margin-left: 0;
+	    margin-bottom: 2em;
+	    list-style-type: none;
+    }
+    ul li {
+	    margin-bottom: 0.5em;
+    }
 	h6 {color: $black;}
 	.sub-content {
 		color: $gray;
