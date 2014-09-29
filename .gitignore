@@ -77,3 +77,5 @@ wp-content/themes/kegerator/lib/acf/.DS_Store
 wp-content/themes/kegerator/scss/bourbon/.DS_Store
 
 wp-content/themes/kegerator/scss/foundation/.DS_Store
+
+*.scssc
